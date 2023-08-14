@@ -7,7 +7,7 @@ function App() {
         <Router>
             <Routes>
                 {publicRoutes.map((route, index) => {
-                    const Page = route.element;
+                    const Page = route.component;
                     let Layout = DefaultLayout;
 
                     if (route.layout) {

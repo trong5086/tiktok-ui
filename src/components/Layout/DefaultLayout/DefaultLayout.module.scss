@@ -5,7 +5,8 @@
     align-items: center;
 }
 .container {
-    width: var(--default-layout-width, 1444px);
+    width: var(--default-layout-width, 1484px);
+    padding: 0 var(--default-layout-horizontal-spacer);
     display: flex;
 }
 .content {
