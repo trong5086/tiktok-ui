@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -22,5 +23,9 @@ function SearchItem({ data }) {
         </Link>
     );
 }
+
+SearchItem.propTypes = {
+    data: PropTypes.object.isRequired,
+};
 
 export default SearchItem;
