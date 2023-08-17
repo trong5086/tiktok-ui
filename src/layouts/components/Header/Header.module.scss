@@ -18,7 +18,8 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width, 1484px);
-    padding: 0 var(--default-layout-horizontal-spacer);
+    padding-left: 12px;
+    padding-right: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +27,7 @@
 
 .logo-link {
     display: flex;
+    min-width: 300px;
 }
 
 // Actions
