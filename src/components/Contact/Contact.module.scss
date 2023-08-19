@@ -1,0 +1,37 @@
+.wrapper {
+    margin-top: 8px;
+    padding-top: 16px;
+    padding-left: 8px;
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+
+.header {
+    margin-bottom: 8px;
+}
+
+.title {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    border-color: transparent;
+    min-width: 0;
+    padding: 0;
+    margin-left: 0 !important;
+}
+
+.body {
+    margin-bottom: 8px;
+}
+
+.footer {
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 6px;
+    margin-top: 12px;
+}
